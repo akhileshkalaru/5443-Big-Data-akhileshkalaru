@@ -1,4 +1,5 @@
 Writeup
+
 1.Set data structure is used to store the key value pairs and scard function is used to count the unique food items.
 
 2.To extract the information from nutrition file which is a json file I have used nested loop and this information is decoded to get unique data values and pushed into set and extract the set and get the count using scard function which returns unique values.
