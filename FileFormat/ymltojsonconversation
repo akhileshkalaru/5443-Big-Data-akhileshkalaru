@@ -1,0 +1,10 @@
+YML TO JSON CONVERSATION
+
+The below is the package that needs to be installed for making the conversion
+sudo apt-get install python-yaml
+
+After installing the package the below command is used to make the conversion of the file.
+
+python -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin), sys.stdout, indent=4)' < GpsFilePoints.yml > Output.json
+
+I have run this command in the server but the process is getting killed.
